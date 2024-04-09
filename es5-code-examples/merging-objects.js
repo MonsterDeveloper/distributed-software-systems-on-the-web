@@ -16,3 +16,10 @@ var employee = {
 };
 
 console.log(employee);
+
+// ES6
+
+const employee = {
+    ...person,
+    ...jobDetails,
+}

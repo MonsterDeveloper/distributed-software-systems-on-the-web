@@ -13,3 +13,8 @@ var user = {
 };
 
 displayUserDetails(user);
+
+// ES6
+const displayUserDetails = ({ name, age, email}) => {
+    console.log(`Name: ${name}, Age: ${age}, Email: ${email}`)
+} 

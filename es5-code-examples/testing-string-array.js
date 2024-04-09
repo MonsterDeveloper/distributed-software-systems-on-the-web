@@ -29,3 +29,9 @@ for (var i = 0; i < fruits.length; i++) {
 }
 
 console.log('Some fruits have more than five characters:', someFruitsHaveMoreThanFiveChars);
+
+
+// ES6
+const includesBanana = fruits.includes("banana");
+const everyFruitHasMoreThanFiveChars = fruits.every(fruit => fruit.length > 5);
+const someFruitsHaveMoreThanFiveChars = fruits.some(fruit => fruit.length > 5);

@@ -19,3 +19,6 @@ var words = ['Hello', 'world', 'of', 'JavaScript'];
 var sentence = concatenateStrings(words);
 
 console.log(sentence);
+
+// ES6
+const sentence = words.join(", ");
